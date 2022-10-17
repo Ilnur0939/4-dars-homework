@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/service.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 class="visually-hidden">coffee roasters</h1>
+
+    <header>
+        <div class="container">
+            <div class="header">
+
+                <div class="header__left">
+                    <a href="#" class="header__img">
+                        <img class="header__logo" src="./images/coffee-icon.svg" alt="coffeeroasters icon">
+                    </a>
+                </div>
+
+                <ul class="header__right">
+                    <li class="header__item">
+                        <a href="./home.html" class="header__link">HOME</a>
+                    </li>
+
+                    <li class="header__item">
+                        <a href="./about.html" class="header__link">ABOUT US</a>
+                    </li>
+
+                    <li class="header__item">
+                        <a href="#" class="header__link">CREATE YOUR PLAN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="container">
+                <div class="hero">
+                    <img src="./images/main-hero.jpg" alt="" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                   <div class="services">
+
+                    <ul class="services__list">
+                        <li class="services__item">
+                            <img src="./images/01.svg" alt="" class="services__img">
+                            <h3 class="services__title">Pick your<br>coffee</h3>
+                            <p class="services__text">Select from our evolving range of artisan coffees. Our beans
+                                are ethically sourced and we pay fair prices for them. There are new coffees in all
+                                profiles every month for you to try out.</p>
+                        </li>
+
+                        <li class="services__item">
+                            <img src="./images/02.svg" alt="" class="services__img">
+                            <h3 class="services__title">Choose the frequency</h3>
+                            <p class="services__text">Customize your order frequency, quantity, even your roast
+                                style and grind type. Pause, skip or cancel your subscription with no commitment through
+                                our online portal.</p>
+                        </li>
+
+                        <li class="services__item">
+                            <img src="./images/03.svg" alt="" class="services__img">
+                            <h3 class="services__title">Receive and <br>enjoy!</h3>
+                            <p class="services__text">We ship your package within 48 hours, freshly roasted. Sit
+                                back and enjoy award-winning world-class coffees curated to provide a distinct tasting
+                                experience.</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="about">
+
+                    <div class="about__right right-list">
+                        <ol class="right-list__list">
+                            <li class="right-list__item">
+                                <a href="#">
+                                    <b class="right-list__number">01</b>
+                                    <strong class="right-list__text">Preferences</strong>
+                                </a>
+                                <hr class="right-list__line">
+                            </li>
+
+                            <li class="right-list__item">
+                                <a href="#">
+                                    <b class="right-list__number">02</b>
+                                    <strong class="right-list__text">Bean Type</strong>
+                                </a>
+                                <hr class="right-list__line">
+                            </li>
+
+                            <li class="right-list__item">
+                                <a href="#">
+                                    <b class="right-list__number">03</b>
+                                    <strong class="right-list__text">Quantity</strong>
+                                </a>
+                                <hr class="right-list__line">
+                            </li>
+
+                            <li class="right-list__item">
+                                <a href="#">
+                                    <b class="right-list__number">04</b>
+                                    <strong class="right-list__text">Grind Option</strong>
+                                </a>
+                                <hr class="right-list__line">
+                            </li>
+
+                            <li class="right-list__item">
+                                 <a href="#">
+                                    <b class="right-list__number">05</b>
+                                    <strong class="right-list__text">Deliveries</strong>
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <form class="about__form" action="https://echo.htmlacademy.ru" method="POST">
+
+                       <!-- <label for=""> -->
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <!-- <label class="about__label"></label> -->
+                                <h2 class="about__question">How do you drink your coffee?</h2>
+                                <img class="about__path" src="./images/Path 2.svg" alt="">
+                                <!-- <input class="about__input" name="services" type="radio">     -->
+                               <ul class="about-box">
+                                
+                                    <li class="about-box__list">
+                                       <input class="about__input" type="radio" name="services" >
+                                        <label class="about__label"></label>
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Capsule</h3>
+                                            <p class="about__text">Compatible with Nespresso systems and similar brewers</p>
+                                        </div>
+                                        <!-- </label> -->
+                                    </li>
+
+                                    <li class="about-box__list" >
+                                        <label  class="about__label"></label>
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Filter</h3>
+                                            <p class="about__text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                                        </div>
+                                    </li>
+
+                                    
+                                    <li class="about-box__list">
+                                        <label class="about__label"></label>
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Espresso</h3>
+                                            <p class="about__text">Dense and finely ground beans for an intense, flavorful experience</p>
+                                        </div>
+                                    </li>
+                                </ul> 
+                            </li>
+                        </ul>
+
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <h2 class="about__question">What type of coffee?</h2>
+                                <img class="about__path" src="./images/Path 2.svg" alt="">
+                         
+                               <ul class="about-box">
+                                    <li class="about-box__list">
+                                       <input class="about__input" type="radio" name="services" >
+                                        <!-- <label class="label"> -->
+                                     
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Single Origin</h3>
+                                            <p class="about__text">Distinct, high quality coffee from a specific family-owned farm</p>
+                                        </div>
+                                        <!-- </label> -->
+                                    </li>
+
+                                    <li class="about-box__list">
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Decaf</h3>
+                                            <p class="about__text">Just like regular coffee, except the caffeine has been removed</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-box__list">
+                                        <label class="about__label"></label>
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Blended</h3>
+                                            <p class="about__text">Combination of two or three dark roasted beans of organic coffees</p>
+                                        </div>
+                                    </li>
+                                </ul> 
+                            </li>
+                        </ul>
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <h2 class="about__question">How much would you like?</h2>
+                                <img class="about__path" src="./images/Path 2.svg" alt="">
+                         
+                               <ul class="about-box">
+                                
+                                    <li class="about-box__list">
+                                       <input class="about__input" type="radio" name="services" >
+                                        <!-- <label class="label"> -->
+                                     
+                                        <div class="about__inner">
+                                            <h3 class="about__title">250g</h3>
+                                            <p class="about__text">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                                        </div>
+                                        <!-- </label> -->
+                                    </li>
+
+                                    <li class="about-box__list">
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">500g</h3>
+                                            <p class="about__text">Perfect option for a couple. Yields about 40 delectable cups.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-box__list">
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">1000g</h3>
+                                            <p class="about__text">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                                        </div>
+                                    </li>
+                                </ul> 
+                            </li>
+                        </ul>
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <h2 class="about__question">Want us to grind them?</h2>
+                                <img class="about__path" src="./images/Path 2.svg" alt="">
+                         
+                               <ul class="about-box">
+                                
+                                    <li class="about-box__list">
+                                       <input class="about__input" type="radio" name="services" >
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Wholebean</h3>
+                                            <p class="about__text">Best choice if you cherish the full sensory experience</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-box__list">
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Filter</h3>
+                                            <p class="about__text">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                                        </div>
+                                    </li>
+
+                                    
+                                    <li class="about-box__list">
+                                        <label class="about__label"></label>
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Cafetiére</h3>
+                                            <p class="about__text">Course ground beans specially suited for french press coffee</p>
+                                        </div>
+                                    </li>
+                                </ul> 
+                            </li>
+                        </ul>
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <h2 class="about__question">How often should we deliver?</h2>
+                                <img class="about__path" src="./images/Path 2.svg" alt="">
+                         
+                               <ul class="about-box">
+                                
+                                    <li class="about-box__list">
+                                       <input class="about__input" type="radio" name="services" >         
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Every week</h3>
+                                            <p class="about__text">$7.20 per shipment. Includes free first-class shipping.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-box__list">
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Every 2 weeks</h3>
+                                            <p class="about__text">$9.60 per shipment. Includes free priority shipping.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="about-box__list">
+                                        <label class="about__label"></label>
+                                        <input class="about__input" type="radio" name="services">
+                                        <div class="about__inner">
+                                            <h3 class="about__title">Every month</h3>
+                                            <p class="about__text">$12.00 per shipment. Includes free priority shipping.</p>
+                                        </div>
+                                    </li>
+                                </ul> 
+                            </li>
+                        </ul>
+                    
+                        <button class="about__btn">Create my plan!</button>
+                       
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__left">
+                    <img src="./images/footer-icon.svg" alt="" class="footer__logo">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="" class="footer__link">HOME</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">ABOUT US</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">CREATE YOUR PLAN</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__right">
+                    <a href="#" class="footer__right-link">
+                        <img src="./images/facebook.svg" alt="facebook__link" class="footer__right-icon">
+                    </a>
+
+                    <a href="#" class="footer__right-link">
+                        <img src="./images/twitter.svg" alt="twitter__link" class="footer__right-icon">
+                    </a>
+
+                    <a href="#" class="footer__right-link instagram">
+                        <img src="./images/instagram.svg" alt="instagram__link" class="footer__right-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
